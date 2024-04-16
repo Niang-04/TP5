@@ -6,24 +6,27 @@ import { BrowserModule } from "@angular/platform-browser";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { CommunicationService } from "./communication.service";
-import { GuestComponent } from "./guest/guest.component";
-import { HotelComponent } from "./hotel/hotel.component";
-import { RoomComponent } from "./room/room.component";
+import { EspeceOiseauComponent } from "./especeoiseau/especeoiseau.component";
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    RoomComponent,
-    HotelComponent,
-    GuestComponent,
-  ],
-  imports: [
-    CommonModule,
+const modules = [
+
+  CommonModule,
     BrowserModule,
     HttpClientModule,
     FormsModule,
     AppRoutingModule
+
+]
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    EspeceOiseauComponent,
   ],
+  imports: [
+  ...modules
+  ],
+  exports: [...modules],
   providers: [CommunicationService],
   bootstrap: [AppComponent],
 })

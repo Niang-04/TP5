@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var Statut = /*#__PURE__*/(function () {\n  (function (Statut) {\n    Statut[\"Vulnerable\"] = \"Vuln\\xE9rable\";\n    Statut[\"Pr\\xE9occupation_mineure\"] = \"Pr\\xE9occupation mineure\";\n    Statut[\"Non_menacee\"] = \"Non menac\\xE9e\";\n  })(Statut || (Statut = {}));\n\n  return Statut;\n})();","map":null,"metadata":{},"sourceType":"module"}

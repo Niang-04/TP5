@@ -22,17 +22,17 @@
     text-align: center;
 }
 
-.hotel1 {
+.Ornitho1 {
     color: var(--theme-purple);
     font-family: 'Varela Round', sans-serif;
 }
 
-.hotel2 {
+.Ornitho2 {
     color: var(--theme-blue);
     font-family: 'Varela Round', sans-serif;
 }
 
-.hotel3 {
+.Ornitho3 {
     color: var(--theme-lightblue);
     font-family: 'Varela Round', sans-serif;
 }
